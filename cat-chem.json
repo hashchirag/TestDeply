@@ -1,0 +1,226 @@
+[
+{
+  "info":{
+      "cid":122,
+      "ct":"Some Basic concepts in Chemistry",
+      "ctg":"jeemain,chemistry,some-basic-concepts-in-chemistry",
+      "pcid":77
+   }
+},
+{
+   "info":{
+      "cid":124,
+      "ct":"Atomic Structure",
+      "ctg":"jeemain,chemistry,atomic-structure",
+      "pcid":77
+   }
+},
+{
+   "info":{
+      "cid":132,
+      "ct":"Classification of Elements and Periodicity in Properties",
+      "ctg":"jeemain,chemistry,classification-of-elements-and-periodicity-in-properties",
+      "pcid":77
+   }
+},
+{
+   "info":{
+      "cid":126,
+      "ct":"Chemical Thermodynamics",
+      "ctg":"jeemain,chemistry,chemical-thermodynamics",
+      "pcid":77
+   }
+},
+{
+   "info":{
+      "cid":128,
+      "ct":"Equilibrium",
+      "ctg":"jeemain,chemistry,equilibrium",
+      "pcid":77
+   }
+},
+{
+   "info":{
+      "cid":272,
+      "ct":"Redox Reactions",
+      "ctg":"redox-reactions",
+      "pcid":77
+   }
+},
+{
+   "info":{
+      "cid":134,
+      "ct":"Hydrogen",
+      "ctg":"jeemain,chemistry,hydrogen",
+      "pcid":77
+   }
+},
+{
+   "info":{
+      "cid":135,
+      "ct":"s-Block Elements",
+      "ctg":"jeemain,chemistry,s-block-elements",
+      "pcid":77
+   }
+},
+{
+   "info":{
+      "cid":136,
+      "ct":"p-Block Elements",
+      "ctg":"jeemain,chemistry,p-block-elements",
+      "pcid":77
+   }
+},
+{
+   "info":{
+      "cid":142,
+      "ct":"Hydrocarbons",
+      "ctg":"jeemain,chemistry,hydrocarbons",
+      "pcid":77
+   }
+},
+{
+    "info":{
+      "cid":141,
+      "ct":"Some Basic principles of Organic chemistry",
+      "ctg":"jeemain,chemistry,some-basic-principles-of-organic-chemistry",
+      "pcid":77
+   }
+},
+{
+   "info":{
+      "cid":139,
+      "ct":"Environmental Chemistry",
+      "ctg":"jeemain,chemistry,environmental-chemistry",
+      "pcid":77
+   }
+},
+{
+   "info":{
+      "cid":123,
+      "ct":"States of Matter: Liquids and Gases",
+      "ctg":"jeemain,chemistry,states-of-matter",
+      "pcid":77
+   }
+},
+{
+   "info":{
+      "cid":267,
+      "ct":"States of Matter: Solid State",
+      "ctg":"states-of-matter-solid-state",
+      "pcid":77
+   }
+},
+{
+   "info":{
+      "cid":127,
+      "ct":"Solutions",
+      "ctg":"jeemain,chemistry,solutions",
+      "pcid":77
+   }
+},
+{
+   "info":{
+      "cid":269,
+      "ct":"Electrochemistry",
+      "ctg":"electrochemistry",
+      "pcid":77
+   }
+},
+{
+   "info":{
+      "cid":131,
+      "ct":"Surface Chemistry",
+      "ctg":"jeemain,chemistry,surface-chemistry",
+      "pcid":77
+   }
+},
+{
+    "info":{
+      "cid":133,
+      "ct":"General Principals and Processes of Isolation of Metals",
+      "ctg":"jeemain,chemistry,general-principals-and-processes-of-isolation-of-metals",
+      "pcid":77
+   }
+},
+{
+   "info":{
+      "cid":268,
+      "ct":"p-Block elements (Group-15 to Group-18)",
+      "ctg":"p-block-elements",
+      "pcid":77
+   }
+},
+{
+   "info":{
+      "cid":138,
+      "ct":"Co-ordination Compounds",
+      "ctg":"jeemain,chemistry,co-ordination-compounds",
+      "pcid":77
+   }
+},
+{
+   "info":{
+      "cid":143,
+      "ct":"Halogens",
+      "ctg":"jeemain,chemistry,halogens",
+      "pcid":77
+   }
+},
+{
+   "info":{
+      "cid":144,
+      "ct":"Oxygen: Alchohols, Phenols and Ethers",
+      "ctg":"jeemain,chemistry,oxygen",
+      "pcid":77
+   }
+},
+{
+   "info":{
+      "cid":145,
+      "ct":"Nitrogen",
+      "ctg":"jeemain,chemistry,nitrogen",
+      "pcid":77
+   }
+ },
+{
+   "info":{
+      "cid":146,
+      "ct":"Polymers",
+      "ctg":"jeemain,chemistry,polymers",
+      "pcid":77
+   }
+},
+{
+   "info":{
+      "cid":147,
+      "ct":"Biomolecules",
+      "ctg":"jeemain,chemistry,biomolecules",
+      "pcid":77
+   }
+},
+{
+   "info":{
+      "cid":149,
+      "ct":"Practical Chemistry",
+      "ctg":"jeemain,chemistry,practical-chemistry",
+      "pcid":77
+   }
+},
+{
+   "info":{
+      "cid":130,
+      "ct":"Chemical Kinetics",
+      "ctg":"jeemain,chemistry,chemical-kinetics",
+      "pcid":77
+   }
+},
+  {
+    "info":{
+      "cid":270,
+      "ct":"Oxygen: Aldehydes, Ketones and Carboxylic Acids",
+      "ctg":"oxygen-aldehydes-ketones-and-carboxylic-acids",
+      "pcid":77
+   }
+  }
+]

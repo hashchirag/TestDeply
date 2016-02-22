@@ -1,0 +1,1480 @@
+[
+   {  
+      "72":{  
+         "cid":72,
+         "ct":"JEEMAIN and AIPMT",
+         "ctg":"jee-main-aipmt",
+         "pcid":null
+      },
+      "309":{  
+         "cid":309,
+         "ct":"CBSE XI",
+         "ctg":"cbse-xi",
+         "pcid":null
+      },
+      "273":{  
+         "cid":273,
+         "ct":"CBSE XII",
+         "ctg":"cbse-xii",
+         "pcid":null
+      },
+      "286":{  
+         "cid":286,
+         "ct":"NTSE X",
+         "ctg":"ntse-class-x",
+         "pcid":null
+      },
+      "278":{  
+         "cid":278,
+         "ct":"Olympiad",
+         "ctg":"olympiad",
+         "pcid":null
+      },
+      "80":{  
+         "cid":80,
+         "ct":"EAMCET",
+         "ctg":"eamcet",
+         "pcid":null
+      },
+      "24":{  
+         "cid":24,
+         "ct":"TN XII Math",
+         "ctg":"tnstate,class12",
+         "pcid":null
+      },
+      "70":{  
+         "cid":70,
+         "ct":"ISC XII Math",
+         "ctg":"isc-xii-math",
+         "pcid":null
+      },
+      "75":{  
+         "cid":75,
+         "ct":"Exam Results",
+         "ctg":"exam-results",
+         "pcid":null
+      },
+      "73":{  
+         "cid":73,
+         "ct":"After XII?",
+         "ctg":"what-where-should-i-study",
+         "pcid":null
+      },
+      "1":{  
+         "cid":1,
+         "ct":"User Requests",
+         "ctg":"user-requests",
+         "pcid":null
+      },
+      "85":{  
+         "cid":85,
+         "ct":"Tips, Tricks and Exam Hacks",
+         "ctg":"tips-tricks-and-exam-hacks",
+         "pcid":null
+      },
+      "162":{  
+         "cid":162,
+         "ct":"Class-V Math",
+         "ctg":"class-v",
+         "pcid":null
+      },
+      "285":{  
+         "cid":285,
+         "ct":"Class 10",
+         "ctg":"class-10",
+         "pcid":null
+      },
+      "7":{  
+         "cid":7,
+         "ct":"Real Numbers",
+         "ctg":"realnumbers-p-1-19",
+         "pcid":2
+      },
+      "8":{  
+         "cid":8,
+         "ct":"Polynomials",
+         "ctg":"polynomials-pages-20-37",
+         "pcid":2
+      },
+      "43":{  
+         "cid":43,
+         "ct":"Linear Equations in Two Variables",
+         "ctg":"3-linear-equations-in-two-variables",
+         "pcid":2
+      },
+      "44":{  
+         "cid":44,
+         "ct":"Quadratic Equations",
+         "ctg":"4-quadratic-equations",
+         "pcid":2
+      },
+      "45":{  
+         "cid":45,
+         "ct":"Arithmetic Progressions",
+         "ctg":"5-arithmetic-progressions",
+         "pcid":2
+      },
+      "46":{  
+         "cid":46,
+         "ct":"Triangles",
+         "ctg":"6-triangles",
+         "pcid":2
+      },
+      "47":{  
+         "cid":47,
+         "ct":"Coordinate Geometry",
+         "ctg":"7-coordinate-geometry",
+         "pcid":2
+      },
+      "48":{  
+         "cid":48,
+         "ct":"Trigonometry",
+         "ctg":"8-trigonometry",
+         "pcid":2
+      },
+      "49":{  
+         "cid":49,
+         "ct":"Some applications of trigonometry",
+         "ctg":"9-some-applications-of-trigonometry",
+         "pcid":2
+      },
+      "50":{  
+         "cid":50,
+         "ct":"Circles",
+         "ctg":"10-circles",
+         "pcid":2
+      },
+      "51":{  
+         "cid":51,
+         "ct":"Constructions",
+         "ctg":"11-constructions",
+         "pcid":2
+      },
+      "52":{  
+         "cid":52,
+         "ct":"Areas related to circles",
+         "ctg":"12-areas-related-to-circles",
+         "pcid":2
+      },
+      "53":{  
+         "cid":53,
+         "ct":"Surface areas and volumes",
+         "ctg":"13-surface-areas-and-volumes",
+         "pcid":2
+      },
+      "54":{  
+         "cid":54,
+         "ct":"Statistics",
+         "ctg":"14-statistics",
+         "pcid":2
+      },
+      "55":{  
+         "cid":55,
+         "ct":"Probability",
+         "ctg":"15-probability",
+         "pcid":2
+      },
+      "69":{  
+         "cid":69,
+         "ct":"Model Papers",
+         "ctg":"cbse,class12,modelpaper",
+         "pcid":14
+      },
+      "56":{  
+         "cid":56,
+         "ct":"Relations and Functions",
+         "ctg":"cbse,class12,ch1",
+         "pcid":14
+      },
+      "57":{  
+         "cid":57,
+         "ct":"Inverse Trigonometric Functions",
+         "ctg":"cbse,class12,ch2",
+         "pcid":14
+      },
+      "58":{  
+         "cid":58,
+         "ct":"Matrices",
+         "ctg":"cbse,class12,ch3",
+         "pcid":14
+      },
+      "59":{  
+         "cid":59,
+         "ct":"Determinants",
+         "ctg":"cbse,class12,ch4",
+         "pcid":14
+      },
+      "60":{  
+         "cid":60,
+         "ct":"Continuity and Differentiability",
+         "ctg":"cbse,class12,ch5",
+         "pcid":14
+      },
+      "61":{  
+         "cid":61,
+         "ct":"Application of Derivatives",
+         "ctg":"cbse,class12,ch6",
+         "pcid":14
+      },
+      "62":{  
+         "cid":62,
+         "ct":"Integrals",
+         "ctg":"cbse,class12,ch7",
+         "pcid":14
+      },
+      "63":{  
+         "cid":63,
+         "ct":"Application of Integrals",
+         "ctg":"cbse,class12,ch8",
+         "pcid":14
+      },
+      "64":{  
+         "cid":64,
+         "ct":"Differential Equations",
+         "ctg":"cbse,class12,ch9",
+         "pcid":14
+      },
+      "65":{  
+         "cid":65,
+         "ct":"Vector Algebra",
+         "ctg":"cbse,class12,ch10",
+         "pcid":14
+      },
+      "66":{  
+         "cid":66,
+         "ct":"Three Dimensional Geometry",
+         "ctg":"cbse,class12,ch11",
+         "pcid":14
+      },
+      "67":{  
+         "cid":67,
+         "ct":"Linear Programming",
+         "ctg":"cbse,class12,ch12",
+         "pcid":14
+      },
+      "68":{  
+         "cid":68,
+         "ct":"Probability",
+         "ctg":"cbse,class12,ch13",
+         "pcid":14
+      },
+      "29":{  
+         "cid":29,
+         "ct":"Applications of Matrices and Determinants",
+         "ctg":"tnstate,class12,ch1",
+         "pcid":24
+      },
+      "30":{  
+         "cid":30,
+         "ct":"Vector Algebra",
+         "ctg":"tnstate,class12,ch2",
+         "pcid":24
+      },
+      "31":{  
+         "cid":31,
+         "ct":"Complex Numbers",
+         "ctg":"tnstate,class12,ch3",
+         "pcid":24
+      },
+      "32":{  
+         "cid":32,
+         "ct":"Analytical Geometry",
+         "ctg":"tnstate,class12,ch4",
+         "pcid":24
+      },
+      "33":{  
+         "cid":33,
+         "ct":"Differential Calculus Applications - I",
+         "ctg":"tnstate,class12,ch5",
+         "pcid":24
+      },
+      "34":{  
+         "cid":34,
+         "ct":"Differential Calculus Applications - II",
+         "ctg":"tnstate,class12,ch6",
+         "pcid":24
+      },
+      "35":{  
+         "cid":35,
+         "ct":"Integral Calculus and its applications",
+         "ctg":"tnstate,class12,ch7",
+         "pcid":24
+      },
+      "36":{  
+         "cid":36,
+         "ct":"Differential Equations",
+         "ctg":"tnstate,class12,ch8",
+         "pcid":24
+      },
+      "37":{  
+         "cid":37,
+         "ct":"Discrete Mathematics",
+         "ctg":"tnstate,class12,ch9",
+         "pcid":24
+      },
+      "38":{  
+         "cid":38,
+         "ct":"Probability Distribution",
+         "ctg":"tnstate,class12,ch10",
+         "pcid":24
+      },
+      "40":{  
+         "cid":40,
+         "ct":"Objective type Questions and Answers",
+         "ctg":"tnstate,class12,ch11",
+         "pcid":24
+      },
+      "71":{  
+         "cid":71,
+         "ct":"Model Papers",
+         "ctg":"0-model-papers",
+         "pcid":70
+      },
+      "78":{  
+         "cid":78,
+         "ct":"Mathematics",
+         "ctg":"jeemain,math",
+         "pcid":72
+      },
+      "76":{  
+         "cid":76,
+         "ct":"Physics",
+         "ctg":"jeemain,physics",
+         "pcid":72
+      },
+      "77":{  
+         "cid":77,
+         "ct":"Chemistry",
+         "ctg":"jeemain,chemistry",
+         "pcid":72
+      },
+      "79":{  
+         "cid":79,
+         "ct":"Biology",
+         "ctg":"neet,biology",
+         "pcid":72
+      },
+      "184":{  
+         "cid":184,
+         "ct":"JEEMAIN-2014",
+         "ctg":"jeemain-2014",
+         "pcid":72
+      },
+      "230":{  
+         "cid":230,
+         "ct":"Class11",
+         "ctg":"class11",
+         "pcid":76
+      },
+      "231":{  
+         "cid":231,
+         "ct":"Class12",
+         "ctg":"class12",
+         "pcid":76
+      },
+      "122":{  
+         "cid":122,
+         "ct":"Some Basic concepts in Chemistry",
+         "ctg":"jeemain,chemistry,some-basic-concepts-in-chemistry",
+         "pcid":77
+      },
+      "124":{  
+         "cid":124,
+         "ct":"Atomic Structure",
+         "ctg":"jeemain,chemistry,atomic-structure",
+         "pcid":77
+      },
+      "132":{  
+         "cid":132,
+         "ct":"Classification of Elements and Periodicity in Properties",
+         "ctg":"jeemain,chemistry,classification-of-elements-and-periodicity-in-properties",
+         "pcid":77
+      },
+      "125":{  
+         "cid":125,
+         "ct":"Chemical Bonding and Molecular Structure",
+         "ctg":"jeemain,chemistry,chemical-bonding-and-molecular-structure",
+         "pcid":77
+      },
+      "126":{  
+         "cid":126,
+         "ct":"Chemical Thermodynamics",
+         "ctg":"jeemain,chemistry,chemical-thermodynamics",
+         "pcid":77
+      },
+      "128":{  
+         "cid":128,
+         "ct":"Equilibrium",
+         "ctg":"jeemain,chemistry,equilibrium",
+         "pcid":77
+      },
+      "272":{  
+         "cid":272,
+         "ct":"Redox Reactions",
+         "ctg":"redox-reactions",
+         "pcid":77
+      },
+      "134":{  
+         "cid":134,
+         "ct":"Hydrogen",
+         "ctg":"jeemain,chemistry,hydrogen",
+         "pcid":77
+      },
+      "135":{  
+         "cid":135,
+         "ct":"s-Block Elements",
+         "ctg":"jeemain,chemistry,s-block-elements",
+         "pcid":77
+      },
+      "136":{  
+         "cid":136,
+         "ct":"p-Block Elements",
+         "ctg":"jeemain,chemistry,p-block-elements",
+         "pcid":77
+      },
+      "271":{  
+         "cid":271,
+         "ct":"P-Block elements (Group-13 and Group-14)",
+         "ctg":"p-block-elements-group-13-and-group-14",
+         "pcid":77
+      },
+      "142":{  
+         "cid":142,
+         "ct":"Hydrocarbons",
+         "ctg":"jeemain,chemistry,hydrocarbons",
+         "pcid":77
+      },
+      "141":{  
+         "cid":141,
+         "ct":"Some Basic principles of Organic chemistry",
+         "ctg":"jeemain,chemistry,some-basic-principles-of-organic-chemistry",
+         "pcid":77
+      },
+      "139":{  
+         "cid":139,
+         "ct":"Environmental Chemistry",
+         "ctg":"jeemain,chemistry,environmental-chemistry",
+         "pcid":77
+      },
+      "123":{  
+         "cid":123,
+         "ct":"States of Matter: Liquids and Gases",
+         "ctg":"jeemain,chemistry,states-of-matter",
+         "pcid":77
+      },
+      "267":{  
+         "cid":267,
+         "ct":"States of Matter: Solid State",
+         "ctg":"states-of-matter-solid-state",
+         "pcid":77
+      },
+      "127":{  
+         "cid":127,
+         "ct":"Solutions",
+         "ctg":"jeemain,chemistry,solutions",
+         "pcid":77
+      },
+      "269":{  
+         "cid":269,
+         "ct":"Electrochemistry",
+         "ctg":"electrochemistry",
+         "pcid":77
+      },
+      "131":{  
+         "cid":131,
+         "ct":"Surface Chemistry",
+         "ctg":"jeemain,chemistry,surface-chemistry",
+         "pcid":77
+      },
+      "133":{  
+         "cid":133,
+         "ct":"General Principals and Processes of Isolation of Metals",
+         "ctg":"jeemain,chemistry,general-principals-and-processes-of-isolation-of-metals",
+         "pcid":77
+      },
+      "268":{  
+         "cid":268,
+         "ct":"p-Block elements (Group-15 to Group-18)",
+         "ctg":"p-block-elements",
+         "pcid":77
+      },
+      "137":{  
+         "cid":137,
+         "ct":"d-and-f-Block Elements",
+         "ctg":"jeemain,chemistry,d-and-f-block-elements",
+         "pcid":77
+      },
+      "138":{  
+         "cid":138,
+         "ct":"Co-ordination Compounds",
+         "ctg":"jeemain,chemistry,co-ordination-compounds",
+         "pcid":77
+      },
+      "143":{  
+         "cid":143,
+         "ct":"Halogens",
+         "ctg":"jeemain,chemistry,halogens",
+         "pcid":77
+      },
+      "144":{  
+         "cid":144,
+         "ct":"Oxygen: Alchohols, Phenols and Ethers",
+         "ctg":"jeemain,chemistry,oxygen",
+         "pcid":77
+      },
+      "145":{  
+         "cid":145,
+         "ct":"Nitrogen",
+         "ctg":"jeemain,chemistry,nitrogen",
+         "pcid":77
+      },
+      "146":{  
+         "cid":146,
+         "ct":"Polymers",
+         "ctg":"jeemain,chemistry,polymers",
+         "pcid":77
+      },
+      "147":{  
+         "cid":147,
+         "ct":"Biomolecules",
+         "ctg":"jeemain,chemistry,biomolecules",
+         "pcid":77
+      },
+      "148":{  
+         "cid":148,
+         "ct":"Chemistry in everyday life",
+         "ctg":"jeemain,chemistry,chemistry-in-everyday-life",
+         "pcid":77
+      },
+      "149":{  
+         "cid":149,
+         "ct":"Practical Chemistry",
+         "ctg":"jeemain,chemistry,practical-chemistry",
+         "pcid":77
+      },
+      "130":{  
+         "cid":130,
+         "ct":"Chemical Kinetics",
+         "ctg":"jeemain,chemistry,chemical-kinetics",
+         "pcid":77
+      },
+      "140":{  
+         "cid":140,
+         "ct":"Purification and Characterisation of Organic Compounds",
+         "ctg":"jeemain,chemistry,purification-and-characterisation-of-organic-compounds",
+         "pcid":77
+      },
+      "270":{  
+         "cid":270,
+         "ct":"Oxygen: Aldehydes, Ketones and Carboxylic Acids",
+         "ctg":"oxygen-aldehydes-ketones-and-carboxylic-acids",
+         "pcid":77
+      },
+      "94":{  
+         "cid":94,
+         "ct":"Limit, Continuity and Differentiability",
+         "ctg":"jeemain,math,limit-continuity-and-differentiability",
+         "pcid":78
+      },
+      "226":{  
+         "cid":226,
+         "ct":"Class11",
+         "ctg":"jeemain, math, class11",
+         "pcid":78
+      },
+      "101":{  
+         "cid":101,
+         "ct":"Trignometry",
+         "ctg":"jeemain,math,trignometry",
+         "pcid":78
+      },
+      "227":{  
+         "cid":227,
+         "ct":"Class12",
+         "ctg":"class12",
+         "pcid":78
+      },
+      "88":{  
+         "cid":88,
+         "ct":"Sets, Relations and Functions",
+         "ctg":"jeemain,math,sets-relations-and-functions",
+         "pcid":78
+      },
+      "150":{  
+         "cid":150,
+         "ct":"Diversity in Living World",
+         "ctg":"diversity-in-living-world",
+         "pcid":79
+      },
+      "151":{  
+         "cid":151,
+         "ct":"Structural Organisation in Animals and Plants",
+         "ctg":"structural-organisation-in-animals-and-plants",
+         "pcid":79
+      },
+      "152":{  
+         "cid":152,
+         "ct":"Cell Structure and Formation",
+         "ctg":"cell-structure-and-formation",
+         "pcid":79
+      },
+      "153":{  
+         "cid":153,
+         "ct":"Plant Physiology",
+         "ctg":"plant-physiology",
+         "pcid":79
+      },
+      "154":{  
+         "cid":154,
+         "ct":"Human Physiology",
+         "ctg":"human-physiology",
+         "pcid":79
+      },
+      "155":{  
+         "cid":155,
+         "ct":"Reproduction",
+         "ctg":"reproduction",
+         "pcid":79
+      },
+      "156":{  
+         "cid":156,
+         "ct":"Genetics and Evolution",
+         "ctg":"genetics-and-evolution",
+         "pcid":79
+      },
+      "157":{  
+         "cid":157,
+         "ct":"Biology in Human Welfare",
+         "ctg":"biology-and-human-welfare",
+         "pcid":79
+      },
+      "158":{  
+         "cid":158,
+         "ct":"Biotechnology and its Applications",
+         "ctg":"biotechnology-and-its-applications",
+         "pcid":79
+      },
+      "159":{  
+         "cid":159,
+         "ct":"Ecology and Environment",
+         "ctg":"ecology-and-environment",
+         "pcid":79
+      },
+      "81":{  
+         "cid":81,
+         "ct":"Physics",
+         "ctg":"physics",
+         "pcid":80
+      },
+      "82":{  
+         "cid":82,
+         "ct":"Chemistry",
+         "ctg":"chemistry",
+         "pcid":80
+      },
+      "83":{  
+         "cid":83,
+         "ct":"Mathematics",
+         "ctg":"mathematics",
+         "pcid":80
+      },
+      "84":{  
+         "cid":84,
+         "ct":"Biology",
+         "ctg":"biology",
+         "pcid":80
+      },
+      "216":{  
+         "cid":216,
+         "ct":"Thermal Properties of Matter",
+         "ctg":"thermal-properties-of-matter",
+         "pcid":110
+      },
+      "217":{  
+         "cid":217,
+         "ct":"Thermodynamics",
+         "ctg":"thermodynamics",
+         "pcid":110
+      },
+      "218":{  
+         "cid":218,
+         "ct":"Oscillations",
+         "ctg":"oscillations",
+         "pcid":112
+      },
+      "219":{  
+         "cid":219,
+         "ct":"Waves",
+         "ctg":"waves",
+         "pcid":112
+      },
+      "220":{  
+         "cid":220,
+         "ct":"Human Health and Disease",
+         "ctg":"human-health-and-disease",
+         "pcid":157
+      },
+      "221":{  
+         "cid":221,
+         "ct":"Strategies for Enhancement in Food Production",
+         "ctg":"stratgies-for-enhancement-in-food-production",
+         "pcid":157
+      },
+      "222":{  
+         "cid":222,
+         "ct":"Microbes in Humal Welfare",
+         "ctg":"microbes-in-humal-welfare",
+         "pcid":157
+      },
+      "165":{  
+         "cid":165,
+         "ct":"Numbers",
+         "ctg":"numbers",
+         "pcid":162
+      },
+      "183":{  
+         "cid":183,
+         "ct":"Fractions",
+         "ctg":"fractions",
+         "pcid":162
+      },
+      "167":{  
+         "cid":167,
+         "ct":"Sets",
+         "ctg":"sets",
+         "pcid":166
+      },
+      "168":{  
+         "cid":168,
+         "ct":"Relations and Functions",
+         "ctg":"relations-and-functions",
+         "pcid":166
+      },
+      "169":{  
+         "cid":169,
+         "ct":"Trigonometric Functions",
+         "ctg":"trigonometric-functions",
+         "pcid":166
+      },
+      "170":{  
+         "cid":170,
+         "ct":"Principle of Mathematical Induction",
+         "ctg":"principle-of-mathematical-induction",
+         "pcid":166
+      },
+      "171":{  
+         "cid":171,
+         "ct":"Complex Numbers and Quadratic Equations",
+         "ctg":"complex-numbers-and-quadratic-equations",
+         "pcid":166
+      },
+      "172":{  
+         "cid":172,
+         "ct":"Linear Inequalities",
+         "ctg":"linear-inequalities",
+         "pcid":166
+      },
+      "173":{  
+         "cid":173,
+         "ct":"Permutations and Combinations",
+         "ctg":"permutations-and-combinations",
+         "pcid":166
+      },
+      "174":{  
+         "cid":174,
+         "ct":"Binomial Theorem",
+         "ctg":"binomial-theorem",
+         "pcid":166
+      },
+      "175":{  
+         "cid":175,
+         "ct":"Sequences and Series",
+         "ctg":"sequences-and-series",
+         "pcid":166
+      },
+      "176":{  
+         "cid":176,
+         "ct":"Straight Lines",
+         "ctg":"straight-lines",
+         "pcid":166
+      },
+      "177":{  
+         "cid":177,
+         "ct":"Conic Sections",
+         "ctg":"conic-sections",
+         "pcid":166
+      },
+      "178":{  
+         "cid":178,
+         "ct":"Introduction to Three Dimensional Geometry",
+         "ctg":"introduction-to-three-dimensional-geometry",
+         "pcid":166
+      },
+      "179":{  
+         "cid":179,
+         "ct":"Limits and Derivatives",
+         "ctg":"limits-and-derivatives",
+         "pcid":166
+      },
+      "180":{  
+         "cid":180,
+         "ct":"Mathematical Reasoning",
+         "ctg":"mathematical-reasoning",
+         "pcid":166
+      },
+      "181":{  
+         "cid":181,
+         "ct":"Statistics",
+         "ctg":"statistics",
+         "pcid":166
+      },
+      "182":{  
+         "cid":182,
+         "ct":"Probability",
+         "ctg":"probability",
+         "pcid":166
+      },
+      "232":{  
+         "cid":232,
+         "ct":"Sets",
+         "ctg":"sets",
+         "pcid":226
+      },
+      "233":{  
+         "cid":233,
+         "ct":"Relations and Functions",
+         "ctg":"relations-and-functions",
+         "pcid":226
+      },
+      "234":{  
+         "cid":234,
+         "ct":"Trigonometric Functions",
+         "ctg":"trigonometric-functions",
+         "pcid":226
+      },
+      "89":{  
+         "cid":89,
+         "ct":"Complex Numbers and Quadratic Equations",
+         "ctg":"jeemain,math,complex-numbers-and-quadratic-equations",
+         "pcid":226
+      },
+      "91":{  
+         "cid":91,
+         "ct":"Permutations and Combinations",
+         "ctg":"jeemain,math,permutations-and-combinations",
+         "pcid":226
+      },
+      "92":{  
+         "cid":92,
+         "ct":"Bionomial Theorem and Simple Applications",
+         "ctg":"jeemain,math,binomial-theorem-and-simple-applications",
+         "pcid":226
+      },
+      "93":{  
+         "cid":93,
+         "ct":"Sequence and Series",
+         "ctg":"jeemain,math,sequence-and-series",
+         "pcid":226
+      },
+      "238":{  
+         "cid":238,
+         "ct":"Coordinate Geometry: Straight Lines",
+         "ctg":"coordinate-geometry-straight-lines",
+         "pcid":226
+      },
+      "239":{  
+         "cid":239,
+         "ct":"Coordinate Geometry: Conic Sections",
+         "ctg":"coordinate-geometry-conic-sections",
+         "pcid":226
+      },
+      "97":{  
+         "cid":97,
+         "ct":"Coordinate Geometry",
+         "ctg":"jeemain,math,coordinate-geometry",
+         "pcid":226
+      },
+      "98":{  
+         "cid":98,
+         "ct":"3-D Geometry",
+         "ctg":"jeemain,math,3-d-geometry",
+         "pcid":226
+      },
+      "237":{  
+         "cid":237,
+         "ct":"Limits and Derivatives",
+         "ctg":"limits-and-derivatives",
+         "pcid":226
+      },
+      "102":{  
+         "cid":102,
+         "ct":"Mathematical Reasoning",
+         "ctg":"jeemain,math,mathematical-reasoning",
+         "pcid":226
+      },
+      "235":{  
+         "cid":235,
+         "ct":"Statistics",
+         "ctg":"statistics",
+         "pcid":226
+      },
+      "236":{  
+         "cid":236,
+         "ct":"Probability",
+         "ctg":"probability",
+         "pcid":226
+      },
+      "240":{  
+         "cid":240,
+         "ct":"Relations and Functions",
+         "ctg":"relations-and-functions",
+         "pcid":227
+      },
+      "241":{  
+         "cid":241,
+         "ct":"Inverse Trigonometric Functions",
+         "ctg":"inverse-trigonometric-functions",
+         "pcid":227
+      },
+      "242":{  
+         "cid":242,
+         "ct":"Matrices",
+         "ctg":"matrices",
+         "pcid":227
+      },
+      "243":{  
+         "cid":243,
+         "ct":"Determinants",
+         "ctg":"determinants",
+         "pcid":227
+      },
+      "244":{  
+         "cid":244,
+         "ct":"Continuity and Differentiability",
+         "ctg":"continuity-and-differentiability",
+         "pcid":227
+      },
+      "245":{  
+         "cid":245,
+         "ct":"Application of Derivatives",
+         "ctg":"application-of-derivatives",
+         "pcid":227
+      },
+      "95":{  
+         "cid":95,
+         "ct":"Integral Calculus",
+         "ctg":"jeemain,math,integral-calculus",
+         "pcid":227
+      },
+      "246":{  
+         "cid":246,
+         "ct":"Application of Integrals",
+         "ctg":"application-of-integrals",
+         "pcid":227
+      },
+      "96":{  
+         "cid":96,
+         "ct":"Differential Equations",
+         "ctg":"jeemain,math,differential-equations",
+         "pcid":227
+      },
+      "99":{  
+         "cid":99,
+         "ct":"Vector Algebra",
+         "ctg":"jeemain,math,vector-algebra",
+         "pcid":227
+      },
+      "247":{  
+         "cid":247,
+         "ct":"3-D Geometry",
+         "ctg":"3-d-geometry",
+         "pcid":227
+      },
+      "248":{  
+         "cid":248,
+         "ct":"Probability",
+         "ctg":"probability",
+         "pcid":227
+      },
+      "260":{  
+         "cid":260,
+         "ct":"Physical World",
+         "ctg":"physical-world",
+         "pcid":230
+      },
+      "103":{  
+         "cid":103,
+         "ct":"Units and Measurement",
+         "ctg":"jeemain,physics,physics-and-measurement",
+         "pcid":230
+      },
+      "261":{  
+         "cid":261,
+         "ct":"Motion in a Straight Line",
+         "ctg":"motion-in-a-straight-line",
+         "pcid":230
+      },
+      "262":{  
+         "cid":262,
+         "ct":"Motion in a Plane",
+         "ctg":"motion-in-a-plane",
+         "pcid":230
+      },
+      "105":{  
+         "cid":105,
+         "ct":"Laws of Motion",
+         "ctg":"jeemain,physics,class11,ch5,laws-of-motion,",
+         "pcid":230
+      },
+      "106":{  
+         "cid":106,
+         "ct":"Work, Power and Energy",
+         "ctg":"jeemain,physics,work-power-energy",
+         "pcid":230
+      },
+      "107":{  
+         "cid":107,
+         "ct":"System of Particles and Rotational Motion",
+         "ctg":"jeemain,physics,rotational-motion",
+         "pcid":230
+      },
+      "108":{  
+         "cid":108,
+         "ct":"Gravitation",
+         "ctg":"jeemain,physics,gravitation",
+         "pcid":230
+      },
+      "263":{  
+         "cid":263,
+         "ct":"Mechanical Properties of Solids",
+         "ctg":"mechanical-properties-of-solids",
+         "pcid":230
+      },
+      "264":{  
+         "cid":264,
+         "ct":"Mechanical Properties of Fluids",
+         "ctg":"mechanical-properties-of-fluids",
+         "pcid":230
+      },
+      "265":{  
+         "cid":265,
+         "ct":"Thermal Properties of Matter",
+         "ctg":"thermal-properties-of-matter",
+         "pcid":230
+      },
+      "110":{  
+         "cid":110,
+         "ct":"Thermodynamics",
+         "ctg":"jeemain,physics,thermodynamics",
+         "pcid":230
+      },
+      "111":{  
+         "cid":111,
+         "ct":"Kinetic Theory of Gases",
+         "ctg":"jeemain,physics,kinetic-theory-of-gases",
+         "pcid":230
+      },
+      "112":{  
+         "cid":112,
+         "ct":"Oscillations",
+         "ctg":"jeemain,physics,oscillation-and-waves",
+         "pcid":230
+      },
+      "266":{  
+         "cid":266,
+         "ct":"Waves",
+         "ctg":"waves",
+         "pcid":230
+      },
+      "249":{  
+         "cid":249,
+         "ct":"Electric Charges and Fields",
+         "ctg":"electric-charges-and-fields",
+         "pcid":231
+      },
+      "250":{  
+         "cid":250,
+         "ct":"Electrostatic Potential and Capacitance",
+         "ctg":"electrostatic-potential-and-capacitance",
+         "pcid":231
+      },
+      "114":{  
+         "cid":114,
+         "ct":"Current Electricity",
+         "ctg":"jeemain,physics,current-electricity",
+         "pcid":231
+      },
+      "251":{  
+         "cid":251,
+         "ct":"Moving Charges and Magentism",
+         "ctg":"moving-charges-and-magentism",
+         "pcid":231
+      },
+      "252":{  
+         "cid":252,
+         "ct":"Magnetism and Matter",
+         "ctg":"magnetism-and-matter",
+         "pcid":231
+      },
+      "253":{  
+         "cid":253,
+         "ct":"Electromagnetic Induction",
+         "ctg":"electromagnetic-induction",
+         "pcid":231
+      },
+      "254":{  
+         "cid":254,
+         "ct":"Alternating Current",
+         "ctg":"alternating-current",
+         "pcid":231
+      },
+      "117":{  
+         "cid":117,
+         "ct":"Electromagnetic Waves",
+         "ctg":"jeemain,physics,electromagnetic-waves",
+         "pcid":231
+      },
+      "255":{  
+         "cid":255,
+         "ct":"Ray Optics and Optical Instruments",
+         "ctg":"ray-optics-and-optical-instruments",
+         "pcid":231
+      },
+      "256":{  
+         "cid":256,
+         "ct":"Wave Optics",
+         "ctg":"wave-optics",
+         "pcid":231
+      },
+      "119":{  
+         "cid":119,
+         "ct":"Dual Nature of Matter and Radiation",
+         "ctg":"jeemain,physics,dual-nature-of-matter-and-radiation",
+         "pcid":231
+      },
+      "257":{  
+         "cid":257,
+         "ct":"Atoms",
+         "ctg":"atoms",
+         "pcid":231
+      },
+      "258":{  
+         "cid":258,
+         "ct":"Nucleii",
+         "ctg":"nucleii",
+         "pcid":231
+      },
+      "160":{  
+         "cid":160,
+         "ct":"Semiconductor Materials and Electronic Devices",
+         "ctg":"electronic-devices",
+         "pcid":231
+      },
+      "120":{  
+         "cid":120,
+         "ct":"Communication Systems",
+         "ctg":"jeemain,physics,communication-systems",
+         "pcid":231
+      },
+      "121":{  
+         "cid":121,
+         "ct":"Experimental Skills in Physics",
+         "ctg":"jeemain,physics,experimental-skills-in-physics",
+         "pcid":231
+      },
+      "14":{  
+         "cid":14,
+         "ct":"Math",
+         "ctg":"cbse,class12, math",
+         "pcid":273
+      },
+      "294":{  
+         "cid":294,
+         "ct":"Physics",
+         "ctg":"cbse-x11-physics",
+         "pcid":273
+      },
+      "274":{  
+         "cid":274,
+         "ct":"Chemistry",
+         "ctg":"cbse,class12,chemistry",
+         "pcid":273
+      },
+      "275":{  
+         "cid":275,
+         "ct":"States of Matter - Solid State",
+         "ctg":"states-of-matter-solid-state",
+         "pcid":274
+      },
+      "276":{  
+         "cid":276,
+         "ct":"Solutions",
+         "ctg":"solutions",
+         "pcid":274
+      },
+      "295":{  
+         "cid":295,
+         "ct":"Electrochemistry",
+         "ctg":"electrochemistry",
+         "pcid":274
+      },
+      "296":{  
+         "cid":296,
+         "ct":"Chemical Kinetics",
+         "ctg":"chemical-kinetics",
+         "pcid":274
+      },
+      "297":{  
+         "cid":297,
+         "ct":"Surface Chemistry",
+         "ctg":"surface-chemistry",
+         "pcid":274
+      },
+      "298":{  
+         "cid":298,
+         "ct":"Isolation of Elements",
+         "ctg":"isolation-of-elements",
+         "pcid":274
+      },
+      "299":{  
+         "cid":299,
+         "ct":"p-Block Elements",
+         "ctg":"p-block-elements",
+         "pcid":274
+      },
+      "300":{  
+         "cid":300,
+         "ct":"d- and f-block elements",
+         "ctg":"d-and-f-block-elements",
+         "pcid":274
+      },
+      "301":{  
+         "cid":301,
+         "ct":"Coordinate Compounds",
+         "ctg":"coordinate-compounds",
+         "pcid":274
+      },
+      "302":{  
+         "cid":302,
+         "ct":"Haloalkanes and Haloarenes",
+         "ctg":"haloalkanes-and-haloarenes",
+         "pcid":274
+      },
+      "303":{  
+         "cid":303,
+         "ct":"Alcohols, Phenols and Ethers",
+         "ctg":"alcohols-phenols-and-ethers",
+         "pcid":274
+      },
+      "304":{  
+         "cid":304,
+         "ct":"Aldehydes, Ketones and Carboxylic Acids",
+         "ctg":"aldehydes-ketones-and-carboxylic-acids",
+         "pcid":274
+      },
+      "305":{  
+         "cid":305,
+         "ct":"Amines",
+         "ctg":"amines",
+         "pcid":274
+      },
+      "306":{  
+         "cid":306,
+         "ct":"Biomolecules",
+         "ctg":"biomolecules",
+         "pcid":274
+      },
+      "307":{  
+         "cid":307,
+         "ct":"Polymers",
+         "ctg":"polymers",
+         "pcid":274
+      },
+      "308":{  
+         "cid":308,
+         "ct":"Chemistry in everyday life",
+         "ctg":"chemistry-in-everyday-life",
+         "pcid":274
+      },
+      "282":{  
+         "cid":282,
+         "ct":"Class 5",
+         "ctg":"class-5",
+         "pcid":278
+      },
+      "281":{  
+         "cid":281,
+         "ct":"Class 6",
+         "ctg":"class-6",
+         "pcid":278
+      },
+      "279":{  
+         "cid":279,
+         "ct":"Class 7",
+         "ctg":"class-7",
+         "pcid":278
+      },
+      "280":{  
+         "cid":280,
+         "ct":"Class 8",
+         "ctg":"class-8",
+         "pcid":278
+      },
+      "284":{  
+         "cid":284,
+         "ct":"Class 9",
+         "ctg":"class-9",
+         "pcid":278
+      },
+      "283":{  
+         "cid":283,
+         "ct":"Class 10",
+         "ctg":"class-10",
+         "pcid":278
+      },
+      "293":{  
+         "cid":293,
+         "ct":"Math",
+         "ctg":"math",
+         "pcid":281
+      },
+      "2":{  
+         "cid":2,
+         "ct":"CBSE X Math",
+         "ctg":"cbse-class-10-math",
+         "pcid":285
+      },
+      "287":{  
+         "cid":287,
+         "ct":"Mental Ability Test (MAT)",
+         "ctg":"mental-ability-test-mat",
+         "pcid":286
+      },
+      "288":{  
+         "cid":288,
+         "ct":"Scholastic Aptitude Test (SAT)",
+         "ctg":"scholastic-aptitude-test-sat",
+         "pcid":286
+      },
+      "289":{  
+         "cid":289,
+         "ct":"LANGUAGE",
+         "ctg":"language",
+         "pcid":288
+      },
+      "290":{  
+         "cid":290,
+         "ct":"Social Sciences",
+         "ctg":"social-sciences",
+         "pcid":288
+      },
+      "291":{  
+         "cid":291,
+         "ct":"Sciences",
+         "ctg":"sciences",
+         "pcid":288
+      },
+      "292":{  
+         "cid":292,
+         "ct":"Math",
+         "ctg":"math",
+         "pcid":288
+      },
+      "310":{  
+         "cid":310,
+         "ct":"Electric charges and fields",
+         "ctg":"electric-charges-and-fields",
+         "pcid":294
+      },
+      "311":{  
+         "cid":311,
+         "ct":"Electrostatic Potential and Capacitance",
+         "ctg":"electrostatic-potential-and-capacitance",
+         "pcid":294
+      },
+      "312":{  
+         "cid":312,
+         "ct":"Current Electricity",
+         "ctg":"current-electricity",
+         "pcid":294
+      },
+      "313":{  
+         "cid":313,
+         "ct":"Moving charges and magnetism",
+         "ctg":"moving-charges-and-magnetism",
+         "pcid":294
+      },
+      "314":{  
+         "cid":314,
+         "ct":"Magnetism and matter",
+         "ctg":"magnetism-and-matter",
+         "pcid":294
+      },
+      "315":{  
+         "cid":315,
+         "ct":"Electromagnetic induction",
+         "ctg":"electromagnetic-induction",
+         "pcid":294
+      },
+      "316":{  
+         "cid":316,
+         "ct":"Alternating current",
+         "ctg":"alternating-current",
+         "pcid":294
+      },
+      "317":{  
+         "cid":317,
+         "ct":"Electromagnetic waves",
+         "ctg":"electromagnetic-waves",
+         "pcid":294
+      },
+      "318":{  
+         "cid":318,
+         "ct":"Ray optics and optical instruments",
+         "ctg":"ray-optics-and-optical-instruments",
+         "pcid":294
+      },
+      "319":{  
+         "cid":319,
+         "ct":"Wave optics",
+         "ctg":"wave-optics",
+         "pcid":294
+      },
+      "320":{  
+         "cid":320,
+         "ct":"Dual nature of radiation and matter",
+         "ctg":"dual-nature-of-radiation-and-matter",
+         "pcid":294
+      },
+      "321":{  
+         "cid":321,
+         "ct":"Atoms",
+         "ctg":"atoms",
+         "pcid":294
+      },
+      "322":{  
+         "cid":322,
+         "ct":"Nuclei",
+         "ctg":"nuclei",
+         "pcid":294
+      },
+      "323":{  
+         "cid":323,
+         "ct":"Semiconductor electronics",
+         "ctg":"semiconductor-electronics",
+         "pcid":294
+      },
+      "324":{  
+         "cid":324,
+         "ct":"Communication systems",
+         "ctg":"communication-systems",
+         "pcid":294
+      },
+      "166":{  
+         "cid":166,
+         "ct":"Math",
+         "ctg":"cbse,class11, math,",
+         "pcid":309
+      }
+   }
+]

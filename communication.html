@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>HashLearn - Communication Test</title>
+    <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+
+    <link rel="stylesheet" href="css/normalize.css">
+
+
+        <link rel="stylesheet" href="css/style.css">
+
+
+
+
+  </head>
+
+  <body>
+  <style>
+	body:before {
+    display: none;
+	content:none;
+}
+	label:before{
+		display:none;
+	}
+  </style>
+<header>
+  <small>Tutor communication test</small>
+</header>
+<div id="emc-score"></div>
+<div class="wrap">
+  <div class="row">
+  <section data-quiz-item>
+    <div class="question">I come ________________ India</div>
+    <div class="choices" data-choices='["to","from", "at", "in"]'>
+    </div>
+  </section>
+  <section data-quiz-item>
+    <div class="question">There aren’t _________ people here</div>
+    <div class="choices" data-choices='["much","many", "a lot", "some"]'>
+    </div>
+  </section>
+  </div>
+  <div class="row">
+  <section data-quiz-item>
+    <div class="question">Jayadev _________ work tomorrow.</div>
+    <div class="choices" data-choices='["isn’t going","isn’t", "isn’t going to", "isn’t to"]'>
+    </div>
+  </section>
+   <section data-quiz-item>
+     <div class="question">I’d like _________ information, please.</div>
+    <div class="choices" data-choices='["an","some", "piece", "a piece"]'>
+    </div>
+  </section>
+  </div>
+   <div class="row">
+  <section data-quiz-item>
+    <div class="question"> ____________ to school yesterday</div>
+    <div class="choices" data-choices='["Do you walk","Did you walked", "Did you walk", "Have you walked"]'>
+    </div>
+  </section>
+   <section data-quiz-item>
+     <div class="question">I went to the shop ___________ some chocolate.</div>
+    <div class="choices" data-choices='["for buying","for buy", "to buy", "buy"]'>
+    </div>
+  </section>
+  </div>
+   <div class="row last">
+  <section data-quiz-item>
+    <div class="question">“Have you visited Delhi?” “_________.”</div>
+    <div class="choices" data-choices='["Not yet","Ever", "Already", "Not"]'>
+    </div>
+  </section>
+   <section data-quiz-item>
+    <div class="question">“I don’t like coffee.” “__________ do I.”</div>
+    <div class="choices" data-choices='["So","Neither", "Either", "No"]'>
+    </div>
+  </section>
+  <section data-quiz-item>
+    <div class="question">Is Jayadev ________ Gokul?</div>
+    <div class="choices" data-choices='["taller that","taller", "as tall as", "more tall"]'>
+    </div>
+  </section>
+  <section data-quiz-item>
+    <div class="question">You should __________ your homework</div>
+    <div class="choices" data-choices='["make","do", "work", "give"]'>
+    </div>
+  </section>
+  <section data-quiz-item>
+    <div class="question">Where is the _________ post office, please?</div>
+    <div class="choices" data-choices='["most near","near", "more near", "nearest"]'>
+    </div>
+  </section>
+  <section data-quiz-item>
+    <div class="question">Would you mind _________ the window?</div>
+    <div class="choices" data-choices='["closing","close", "to close", "closed"]'>
+    </div>
+  </section>
+    <section data-quiz-item>
+    <div class="question">He’s interested ________ learning Spanish.</div>
+    <div class="choices" data-choices='["on","to", "in", "for"]'>
+    </div>
+  </section>
+   <section data-quiz-item>
+    <div class="question">How long ___________ English?</div>
+    <div class="choices" data-choices='["do you learn","are you learning", "have you been learning", "you learn"]'>
+    </div>
+  </section>
+    <section data-quiz-item>
+    <div class="question">His office is on the second _______ of the building.</div>
+    <div class="choices" data-choices='["floor","level","ground", "stage"]'>
+    </div>
+  </section>
+    <section data-quiz-item>
+    <div class="question">The doctor gave me a _______________ medicine yesterday.</div>
+    <div class="choices" data-choices='["note","receipt", "prescription", "recipe"]'>
+    </div>
+  </section>
+    <section data-quiz-item>
+    <div class="question">Can you tell me when ________?</div>
+    <div class="choices" data-choices='["the train leaves","does the train leave", "leaves the train", "does leave the train"]'>
+    </div>
+  </section>
+    <section data-quiz-item>
+    <div class="question">I ____________ to be a HashLearn Now Tutor in the next few hours.</div>
+    <div class="choices" data-choices='["think","expect", "wait for", "get"]'>
+    </div>
+  </section>
+  <section data-quiz-item>
+    <div class="question">When Simon _____________ back tonight, he’ll cook dinner.</div>
+    <div class="choices" data-choices='["comes","will come", "come", "shall come"]'>
+    </div>
+  </section>
+  <section data-quiz-item>
+    <div class="question">We arrived __________ India two days ago.</div>
+    <div class="choices" data-choices='["to","in", "on" , "at"]'>
+    </div>
+  </section>
+  </div>
+  <div class="submit">
+  <button id="emc-submit">Submit Answers</button>
+  </div>
+</div>
+
+<footer>
+<div id="emc-progress"></div>
+</footer>
+
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+        <script src="js/communication.js"></script>
+
+
+
+
+  </body>
+</html>

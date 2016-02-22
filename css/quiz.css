@@ -1,0 +1,269 @@
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:900|Roboto:400,100);
+@import "//fonts.googleapis.com/css?family=Bangers";
+@import url("//fonts.googleapis.com/css?family=Raleway:400,800");
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+body {
+  background-color: #fff;
+  padding: 20px;
+}
+header {
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1f8f7b;
+  border-bottom: 1px solid dareken(#2dceb1, 15%);
+  letter-spacing: 4px;
+  padding: 12px 0;
+  background: #fafafa;
+  border-bottom: 1px solid #eeeeee;
+}
+#myQuiz {
+  font-family: 'Raleway';
+  font-size: 16px;
+  font-weight: 400;
+  color: #33444444;
+  width: 1200px;
+  height: 1300px;
+  background: #000 url(../images/bg.jpg);
+}
+#myQuiz .topicSelector {
+  left: 20px;
+}
+#myQuiz .maths {
+  width: 800px;
+  font-family: 'Raleway';
+  position: absolute;
+  left: 40px;
+  top: 250px;
+}
+#myQuiz .physics {
+  width: 800px;
+  font-family: 'Raleway';
+  position: absolute;
+  left: 450px;
+  top: 250px;
+}
+#myQuiz .chem {
+  width: 800px;
+  font-family: 'Raleway';
+  position: absolute;
+  left: 860px;
+  top: 250px;
+}
+#myQuiz .btn {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #c04b01;
+  text-decoration: none;
+  border-radius: 6px;
+  outline: none;
+  width: 150px;
+  padding: .8em 1em;
+  background: #444444;
+  color: gainsboro;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  border: 1px solid #eeeeee;
+}
+
+/*#myQuiz .maths{
+  cursor: pointer;
+}*/
+
+#myQuiz .intro {
+  position: absolute;
+  top: 75px;
+  left: 450px;
+  width: 550px;
+}
+#myQuiz .question {
+  width: 550px;
+  position: absolute;
+  top: 225;
+  left: -1000px;
+}
+#myQuiz .progress {
+  width: 1200px;
+  position: absolute;
+  top: 60px;
+  left: 40px;
+}
+#myQuiz .progress div {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 30px;
+  border-radius: 50%;
+  background-color: #444444;
+  transition: background-color 1s;
+}
+#myQuiz .progress div::after {
+  content: "";
+  position: relative;
+  display: block;
+  position: absolute;
+  top: -60px;
+  width: 65px;
+  left: -15px;
+  height: 40px;
+  transition: opacity 1s, top 1s;
+  opacity: 0;
+}
+#myQuiz .progress div.on, #myQuiz .progress div.answered {
+  background-color: #efbe5e;
+}
+#myQuiz .progress div.answered.correct::after {
+  position: absolute;
+  top: 60px;
+  left: 40px;
+  background-color: #00ff00;
+  opacity: 1;
+}
+#myQuiz .question .txt {
+  width: 600px;
+  font-size: 1.2em;
+  margin: 0px, 0px, 20px, 0px;
+}
+#myQuiz .question .ans {
+  font-size: 0.8em;
+  display: inline-block;
+  width: 300px;
+  border: 2px solid rgba(45, 45, 45, 0.4);
+  border-radius: 6px;
+  padding: 10px;
+  margin: 0px, 15px, 15px, 0px;
+  position: relative;
+}
+#myQuiz .question .ans.selected {
+  border-color: #be4b16;
+}
+#myQuiz .question .ans.correct {
+  border-color: #459a2e;
+}
+#myQuiz .question .ans::after {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-size: 20px 20px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+#myQuiz .question .ans.selected::after {
+  background-image: url(../images/icon_incorrect.svg);
+}
+#myQuiz .question .ans.correct::after {
+  background-image: url(../images/icon_correct.svg);
+}
+#myQuiz .question.unanswered .ans {
+  cursor: pointer;
+}
+#myQuiz .question.unanswered .ans:hover {
+  background-color: rgba(239, 189, 102, 0.2);
+}
+#myQuiz .question.answered .ans {
+  cursor: default;
+}
+#myQuiz .feedback {
+  position: absolute;
+  left: 600px;
+  top: 150px;
+  width: 150px;
+  margin-top: 10px;
+  transition: opacity 0.5s, margin-top 1.5s;
+  visibility: hidden;
+  opacity: 0;
+}
+#myQuiz .feedback .btn {
+  margin-top: 5px;
+}
+#myQuiz .feedback strong {
+  color: #444444;
+}
+#myQuiz .answered .feedback {
+  visibility: visible;
+  opacity: 1;
+  margin-top: 10px;
+}
+#myQuiz .result {
+  position: absolute;
+  top: 225px;
+  border: 2px solid rgba(45, 45, 45, 0.4);
+  border-radius: 6px;
+  left: -1000px;
+  width: 500px;
+  font-family: 'Raleway';
+}
+#myQuiz .result p {
+  font-size: 1em;
+  margin: 10px;
+}
+#myQuiz . result strong {
+  color: #444444;
+  font-size: 1em;
+}
+#myQuiz .active, #myQuiz .inactive {
+  transition: left 0.3s ease-in-out;
+}
+#myQuiz .active {
+  top: 100px;
+  left: 60px;
+}
+#myQuiz .intro.inactive, #myQuiz.inactive.unanswered {
+  left: -1800px;
+}
+#myQuiz .maths.active {
+  top: 300px;
+  left: 40px;
+}
+#myQuiz .physics.active {
+  top: 300px;
+  left: 450px;
+}
+#myQuiz .chem.active {
+  top: 300px;
+  left: 860px;
+}
+#myQuiz .maths.inactive, #myQuiz .physics.inactive, #myQuiz .chem.inactive, #myQuiz.inactive.unanswered {
+  left: -1800px;
+}
+.checkboxdemoSyncing .checkboxDemo1 div {
+  clear: both;
+}
+.checkboxdemoSyncing .checkboxDemo1 md-checkbox {
+  cursor: pointer;
+  border-color: #000000;
+  border-width: 1px;
+  color: #000000;
+}
+.checkboxdemoSyncing legend {
+  color: #3F51B5;
+}
+.checkboxdemoSyncing legend code {
+  color: #3F51B5;
+  font-weight: normal;
+}
+.checkboxdemoSyncing p {
+  padding-left: 8px;
+}
+.checkboxdemoSyncing .info {
+  padding-left: 13px;
+}
+.checkboxdemoSyncing div.standard {
+  padding: 8px;
+  padding-left: 15px;
+}
+.checkboxdemoSyncing fieldset.standard {
+  border-style: solid;
+  border-width: 1px;
+  height: 100%;
+}
+canvas {
+  position: absolute;
+  left: 860px;
+  top: 150px;
+}
+
+}

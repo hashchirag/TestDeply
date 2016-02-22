@@ -1,0 +1,174 @@
+[
+{
+   "info":{  
+      "cid":103,
+      "ct":"Units and Measurement",
+      "ctg":"jeemain,physics,physics-and-measurement",
+      "pcid":230
+   }
+},
+{
+   "info":{  
+      "cid":261,
+      "ct":"Motion in a Straight Line",
+      "ctg":"motion-in-a-straight-line",
+      "pcid":230
+   }
+},
+{
+   "info":{  
+      "cid":262,
+      "ct":"Motion in a Plane",
+      "ctg":"motion-in-a-plane",
+      "pcid":230
+   }
+},
+{
+   "info":{  
+      "cid":106,
+      "ct":"Work, Power and Energy",
+      "ctg":"jeemain,physics,work-power-energy",
+      "pcid":230
+   }
+},
+{
+   "info":{  
+      "cid":107,
+      "ct":"System of Particles and Rotational Motion",
+      "ctg":"jeemain,physics,rotational-motion",
+      "pcid":230
+   }
+},
+{
+   "info":{  
+      "cid":108,
+      "ct":"Gravitation",
+      "ctg":"jeemain,physics,gravitation",
+      "pcid":230
+   }
+},
+{
+    "info":{  
+      "cid":263,
+      "ct":"Mechanical Properties of Solids",
+      "ctg":"mechanical-properties-of-solids",
+      "pcid":230
+   }
+},
+
+{
+   "info":{  
+      "cid":110,
+      "ct":"Thermodynamics",
+      "ctg":"jeemain,physics,thermodynamics",
+      "pcid":230
+   }
+},
+
+{
+   "info":{  
+      "cid":112,
+      "ct":"Oscillations",
+      "ctg":"jeemain,physics,oscillation-and-waves",
+      "pcid":230
+   }
+},
+{
+   "info":{  
+      "cid":266,
+      "ct":"Waves",
+      "ctg":"waves",
+      "pcid":230
+   }
+},
+{
+   "info":{  
+      "cid":114,
+      "ct":"Current Electricity",
+      "ctg":"jeemain,physics,current-electricity",
+      "pcid":231
+   }
+},
+{
+    "info":{  
+      "cid":251,
+      "ct":"Moving Charges and Magentism",
+      "ctg":"moving-charges-and-magentism",
+      "pcid":231
+   }
+},
+{
+   "info":{  
+      "cid":252,
+      "ct":"Magnetism and Matter",
+      "ctg":"magnetism-and-matter",
+      "pcid":231
+   }
+},
+{
+   "info":{  
+      "cid":253,
+      "ct":"Electromagnetic Induction",
+      "ctg":"electromagnetic-induction",
+      "pcid":231
+   }
+},
+{
+   "info":{  
+      "cid":254,
+      "ct":"Alternating Current",
+      "ctg":"alternating-current",
+      "pcid":231
+   }
+},
+{
+   "info":{  
+      "cid":117,
+      "ct":"Electromagnetic Waves",
+      "ctg":"jeemain,physics,electromagnetic-waves",
+      "pcid":231
+   }
+},
+{
+    "info":{  
+      "cid":255,
+      "ct":"Ray Optics and Optical Instruments",
+      "ctg":"ray-optics-and-optical-instruments",
+      "pcid":231
+   }
+},
+{
+   "info":{  
+      "cid":256,
+      "ct":"Wave Optics",
+      "ctg":"wave-optics",
+      "pcid":231
+   }
+},
+{
+   "info":{  
+      "cid":119,
+      "ct":"Dual Nature of Matter and Radiation",
+      "ctg":"jeemain,physics,dual-nature-of-matter-and-radiation",
+      "pcid":231
+   }
+},
+{
+   "info":{  
+      "cid":257,
+      "ct":"Atoms",
+      "ctg":"atoms",
+      "pcid":231
+   }
+},
+
+{
+   "info":{  
+      "cid":160,
+      "ct":"Semiconductor Materials and Electronic Devices",
+      "ctg":"electronic-devices",
+      "pcid":231
+   } 
+}
+
+]

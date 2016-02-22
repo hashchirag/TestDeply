@@ -1,0 +1,176 @@
+<!DOCTYPE HTML>
+<html ng-app="myQuiz">
+  <head>
+    <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test Your Knowledge: Saturn</title>
+    <link rel="stylesheet" type="text/css" href="css/quiz.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-messages.min.js"></script>
+    <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+  </script>
+    <!-- Angular Material Library -->
+    <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js"></script>
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.css">
+  </head>
+  <body>
+    <header>
+  <small>Academic test</small>
+</header>
+
+    <!-- markup goes here -->
+    <div id="myQuiz" ng-controller="QuizController">
+      <div class="intro {{ (activeQuestion) > -1 ? 'inactive' : 'active'}}">
+        <h2>Tutor Onbard Assessment - Subject Test</h2>
+        <h3>Choose any 5 topics and click on the button below to start the test</h3>
+        <div class="btn" ng-click="startQuiz(selected.length)">Start Test</div>
+      </div>
+      <canvas id="mycanvas" width="250" height="250"></canvas>
+      <div class="progress">
+        <div class="{{ ($index===activeQuestion) ? 'on' : 'off '}}" "{{ (myQuestion.questionState === 'answered') ? 'answered' : 'unanswered'}}" "{{ (myQuestion.correctness === 'correct' ) ? 'correct' : 'incorrect' }}" ng-repeat="myQuestion in simpleJSON"></div>
+      </div>
+
+      <!-- Maths -->
+      <div class="maths  {{ (activeQuestion) > -1 ? 'inactive' : 'active'}}" layout="row" layout-wrap>
+        <div flex="100" flex-gt-sm="100" layout="column">
+          <div></div>
+        </div>
+        <div flex="100" flex-gt-sm="50" layout="column">
+          <div >
+            <fieldset class="standard">
+              <legend>Maths
+              </legend>
+              <div layout="row" layout-wrap flex>
+                <div ng-repeat="mathItem in mathList" class="standard" flex="100">
+                  <label>
+                    <md-checkbox ng-model="data.cb1" ng-checked="exists(mathItem , selected)" ng-click="toggle(mathItem, selected)"/>
+                    {{ mathItem.info.ct}}
+                  </label>
+                </div>
+              </div>
+            </fieldset>
+          </div>
+        </div>
+        <!-- <div flex="100">
+          <h2 class="md-title">Selected Items</h2>
+          <code style="display: block; padding: 8px;">{{selected | json}}</code>
+        </div> -->
+      </div>
+      <!-- End of Maths -->
+
+      <!-- //Physics -->
+      <div class="physics  {{ (activeQuestion) > -1 ? 'inactive' : 'active'}}" layout="row" layout-wrap>
+        <div flex="100" flex-gt-sm="100" layout="column">
+          <div></div>
+        </div>
+        <div flex="100" flex-gt-sm="50" layout="column">
+          <div >
+            <fieldset class="standard">
+              <legend>Physics
+              </legend>
+              <div layout="row" layout-wrap flex>
+                <div ng-repeat="physicsItem in physicsList" class="standard" flex="100">
+                  <label>
+                    <md-checkbox ng-model="data.cb1" ng-checked="exists(physicsItem , selected)" ng-click="toggle(physicsItem, selected)"/>
+                    {{ physicsItem.info.ct}}
+                  </label>
+                </div>
+              </div>
+            </fieldset>
+          </div>
+        </div>
+        <!-- <div flex="100">
+          <h2 class="md-title">Selected Items</h2>
+          <code style="display: block; padding: 8px;">{{selected | json}}</code>
+        </div> -->
+      </div>
+      <!-- End of Physics -->
+
+      <!-- Chemistry -->
+
+      <div class="chem {{ (activeQuestion) > -1 ? 'inactive' : 'active'}}" layout="row" layout-wrap>
+        <div flex="100" flex-gt-sm="100" layout="column">
+          <div></div>
+        </div>
+        <div flex="100" flex-gt-sm="50" layout="column">
+          <div >
+            <fieldset class="standard">
+              <legend>Chemistry
+              </legend>
+              <div layout="row" layout-wrap flex>
+                <div ng-repeat="chemItem in chemList" class="standard" flex="100">
+                  <label>
+                    <md-checkbox ng-model="data.cb1" ng-checked="exists(chemItem , selected)" ng-click="toggle(chemItem, selected)"/>
+                    {{ chemItem.info.ct}}
+                  </label>
+                </div>
+              </div>
+            </fieldset>
+          </div>
+        </div>
+        <!-- <div flex="100">
+          <h2 class="md-title">Selected Items</h2>
+          <code style="display: block; padding: 8px;">{{selected | json}}</code>
+        </div> -->
+      </div>
+      <!-- End of Chemistry -->
+
+      <div class="question
+			{{ ($index === activeQuestion) ? 'active' : 'inactive' }}
+			{{ (myQuestion.questionState === 'answered') ? 'answered' : 'unanswered' }}" ng-repeat="myQuestion in simpleJSON">
+
+        <p class="txt"><span math-jax-bind ="myQuestion.question"</p>
+        <p class="ans" ng-class="{selected :isSelected($parent.$index,$index),
+					 correct:isCorrect($parent.$index,$index)}" ng-click="selectAnswer($parent.$index,$index)" ng-repeat="Answer in simpleJSON[$index].answers"><span math-jax-bind ="Answer.text"></p>
+        <div class="feedback">
+          <p ng-show="myQuestion.correctness === 'correct'">You are
+            <strong>correct!</strong>
+          </p>
+          <p ng-show="myQuestion.correctness === 'incorrect'">You answer was <strong>incorrect</strong>.</p>
+          <div class="btn" ng-click="selectContinue()">Continue</div>
+        </div>
+      </div>
+
+      <div class="result {{ (totalQuestions === activeQuestion) ? 'active' : 'inactive'}}">
+        <p>
+          <strong>You scored
+          {{percentage}}% by answering
+          {{score}}
+          of the
+          {{totalQuestions}}
+          questions.<br/><br />
+          Summary <br />
+        </strong>
+          <p>
+            {{ finalArray[  finalArrayIndex.indexOf(selected[0]) ] }} - {{ answersArray[0]  + answersArray[1] + answersArray[2] }}/3<br />
+          </p>
+        <p>
+          {{ finalArray[  finalArrayIndex.indexOf(selected[1]) ] }} - {{ answersArray[3]  + answersArray[4] + answersArray[5] }}/3<br />
+        </p>
+          <p>
+        {{ finalArray[  finalArrayIndex.indexOf(selected[2]) ] }} - {{ answersArray[6]  + answersArray[7] + answersArray[8] }}/3<br />
+          </p>
+          <p>
+            {{ finalArray[  finalArrayIndex.indexOf(selected[3]) ] }} - {{ answersArray[9]  + answersArray[10] + answersArray[11] }}/3<br />
+          </p>
+          <p>
+                {{ finalArray[  finalArrayIndex.indexOf(selected[4]) ] }} - {{ answersArray[12]  + answersArray[13] + answersArray[14] }}/3<br />
+          </p>
+
+
+        </p>
+      </div>
+
+    </div>
+
+    <script type="text/javascript" src="js/quiz.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>HashLearn - Policy Test</title>
+    <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+  <style>
+	body:before {
+    display: none;
+	content:none;
+}
+	label:before{
+		display:none;
+	}
+  </style>
+<header>
+  <small>Tutor policy test</small>
+</header>
+<div id="emc-score"></div>
+<div class="wrap">
+  <div class="row">
+  <section data-quiz-item>
+    <div class="question">What is the ideal way to explain the problem to the student on HashLearn Now?</div>
+    <div class="choices" data-choices='["Providing just the final answer","Providing the steps with little engagement", "Initiating the student towards the solution and helping him/her when required", "Engaging with the student without providing the solution"]'>
+    </div>
+  </section>
+  <section data-quiz-item>
+    <div class="question">During the chat, student uses inappropriate language, you would,</div>
+    <div class="choices" data-choices='["Tell the student to end the session and go away","Say nothing and report the session to the HashLearn team", "Ask the student to end the session and report to HashLearn support", "Use inappropriate language yourself"]'>
+    </div>
+  </section>
+  </div>
+  <div class="row">
+  <section data-quiz-item>
+    <div class="question">Violating HashLearn policies mentioned in the Tutor Guidelines Document could lead to,</div>
+    <div class="choices" data-choices='["Instant Termination from HashLearn","Low Ratings on your profile", "Both option  a.) and option b.)", "None of these"]'>
+    </div>
+  </section>
+  <section data-quiz-item>
+     <div class="question">You found a good-quality solution for the problem online, you: </div>
+    <div class="choices" data-choices='["Post a screenshot/ web link in the chat","Use the solution and explain it clearly to the student in your own words", "Tell the student to search on the web himself / herself"]'>
+    </div>
+  </section>
+
+  </div>
+   <div class="row">
+  <section data-quiz-item>
+    <div class="question">Is it acceptable to provide one word answers to the student?</div>
+    <div class="choices" data-choices='["Yes","No"]'>
+    </div>
+  </section>
+   <section data-quiz-item>
+    <div class="question">Sharing personal information with the student could lead to termination of your association with HashLearn.</div>
+    <div class="choices" data-choices='["False","True"]'>
+    </div>
+  </section>
+  </div>
+   <div class="row">
+  <section data-quiz-item>
+    <div class="question">Which of the following are desirable traits in a HashLearn Now tutor?</div>
+    <div class="choices" data-choices='["Subject Knowledge Matter","Speed and Accuracy", "Communication", "All of the above"]'>
+    </div>
+  </section>
+   <section data-quiz-item>
+    <div class="question">“If you are unsure about the session request you received, you would,”</div>
+    <div class="choices" data-choices='["Accept the session, taking a chance with your ratings and student experience", "Rather wait for a session you are sure of solving accurately"]'>
+    </div>
+  </section>
+  </div>
+  <div class = "row">
+  <section data-quiz-item>
+    <div class="question">A student insists on asking more than one question during a session, what would you do?</div>
+    <div class="choices" data-choices='["Ask him to go ahead if you are sure about solving the new problem", "Ask him to go ahead even if you are unsure about solving the new problem, running the risk of low ratings and poor student experience"]'>
+    </div>
+  </section>
+  <section data-quiz-item>
+    <div class="question">The student is getting impatient during the session, asking for quick answers; you would,</div>
+    <div class="choices" data-choices='["Politely give him an estimate time you would take and ask him if he is comfortable with it","Continue solving the problem without engaging with the student", "Bluntly tell the student to wait while you solve"]'>
+    </div>
+  </section>
+  </div>
+  <div class = "row">
+  <section data-quiz-item>
+    <div class="question">Which of the following does NOT satisfy a student on HashLearn Now?</div>
+    <div class="choices" data-choices='["Constant engagement","Detailed, well thought of explanations", "Professional conduct", "Lengthy sessions"]'>
+    </div>
+  </section>
+  <section data-quiz-item>
+    <div class="question">How do you ensure the student receives the explanation he is looking for?</div>
+    <div class="choices" data-choices='["Ask the student his expectations from the session at the beginning itself and Double-check your calculations", "Provide links and screen-shots from the web"]'>
+    </div>
+  </section>
+  </div>
+  <div>
+    <section data-quiz-item>
+    <div class="question">During a session, the student asks you to share personal information or asks you an inappropriate question, what would you do? </div>
+    <div class="choices" data-choices='["Willingly give away your personal details", "Politely tell him that you are not allowed to do so and ask him to contact the HashLearn team for non-academic queries."]'>
+    </div>
+  </section>
+   <section data-quiz-item>
+    <div class="question">God Forbid, during the session, you realize that you'll not be able to solve a problem, what would you do?</div>
+    <div class="choices" data-choices='["Beat around the bush, dragging the session till it ends", "Politely tell the student about the same and request him to look for another tutor"]'>
+    </div>
+  </section>
+  <div class = "row last">
+    <section data-quiz-item>
+    <div class="question">What are the grounds of dismissal from the HashLearn Now platform? </div>
+    <div class="choices" data-choices='["Sharing personal information with the student","Accepting sessions that you are unsure of","Using inappropriate language with the student", "Poor performance on the platform", "All of these"]'>
+    </div>
+  </section>
+  </div>
+  <div class="submit">
+  <button id="emc-submit">Submit Answers</button>
+  </div>
+</div>
+
+<footer>
+<div id="emc-progress"></div>
+</footer>
+
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script src="js/policy.js"></script>
+  </body>
+</html>

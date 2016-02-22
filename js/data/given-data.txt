@@ -1,0 +1,260 @@
+[  
+   {  
+      "sec":"",
+      "psm":{  
+         "8":"null"
+      },
+      "qArr":[  
+         {  
+            "cqid":36050,
+            "ques":"Evaluate the following limits \\[\\] $ \\lim\\limits_{x \\to 3} x+3$",
+            "answer":"B",
+            "explanation":"<div class=\"clay6-step-odd\"><div class=\"clay6-basic\" id=\"pr10\">$ \\lim\\limits_ { x \\to 3} x+3 = 3+3 = 6$<\/div><\/div>",
+            "opts":[  
+               {  
+                  "pos":"A",
+                  "val":"3"
+               },
+               {  
+                  "pos":"B",
+                  "val":"6"
+               },
+               {  
+                  "pos":"C",
+                  "val":"9"
+               },
+               {  
+                  "pos":"D",
+                  "val":"0"
+               }
+            ],
+            "qid":1
+         },
+         {  
+            "cqid":36051,
+            "ques":"Evaluate the following limits \\[\\] $\\lim\\limits_{x \\to \\pi} \\bigg( x - \\large\\frac{22}{7} \\bigg)$",
+            "answer":"A",
+            "explanation":"<div class=\"clay6-step-odd\"><div class=\"clay6-basic\" id=\"pr10\">$ \\lim\\limits_{x \\to \\pi} \\bigg( x - \\large\\frac{22}{7} \\bigg)$$ = \\bigg( \\pi - \\large\\frac{22}{7} \\bigg)$<\/div><\/div>",
+            "opts":[  
+               {  
+                  "pos":"A",
+                  "val":"$ \\bigg( \\pi - \\large\\frac{22}{7} \\bigg)$"
+               },
+               {  
+                  "pos":"B",
+                  "val":"$ \\bigg( \\pi + \\large\\frac{22}{7} \\bigg)$"
+               },
+               {  
+                  "pos":"C",
+                  "val":"$ \\bigg( \\large\\frac{22}{7} $$- \\pi\\bigg)$"
+               },
+               {  
+                  "pos":"D",
+                  "val":"$ - \\bigg( \\pi - \\large\\frac{22}{7} \\bigg)$"
+               }
+            ],
+            "qid":2
+         },
+         {  
+            "cqid":36053,
+            "ques":"Evaluate the following limits \\[\\] $ \\lim\\limits_{x \\to 1} \\pi r^2$",
+            "answer":"A",
+            "explanation":"<div class=\"clay6-step-odd\"><div class=\"clay6-basic\" id=\"pr10\">$ \\lim\\limits_{x \\to 1} \\pi r^2 = \\pi (1)^2 = \\pi$<\/div><\/div>",
+            "opts":[  
+               {  
+                  "pos":"A",
+                  "val":"$\\pi$"
+               },
+               {  
+                  "pos":"B",
+                  "val":"$1$"
+               },
+               {  
+                  "pos":"C",
+                  "val":"$\\pi^2$"
+               },
+               {  
+                  "pos":"D",
+                  "val":"$0$"
+               }
+            ],
+            "qid":3
+         },
+         {  
+            "cqid":36056,
+            "ques":"Evaluate the following limits \\[\\] $ \\lim\\limits_{x \\to 4} \\large\\frac{4x+3}{x-2}$",
+            "answer":"A",
+            "explanation":"<div class=\"clay6-step-odd\"><div class=\"clay6-basic\" id=\"pr10\">$ \\lim\\limits_{x \\to 4} \\large\\frac{4x+3}{x-2} $$ = \\large\\frac{4(4)+3}{4-2} $<\/div><div class=\"clay6-basic\" id=\"pr11\">$ \\large\\frac{16+3}{2}$<\/div><div class=\"clay6-basic\" id=\"pr12\">$ \\large\\frac{19}{2}$<\/div><\/div>",
+            "opts":[  
+               {  
+                  "pos":"A",
+                  "val":"$ \\large\\frac{19}{2}$"
+               },
+               {  
+                  "pos":"B",
+                  "val":"$ \\large\\frac{16}{3}$"
+               },
+               {  
+                  "pos":"C",
+                  "val":"$19$"
+               },
+               {  
+                  "pos":"D",
+                  "val":"$ \\large\\frac{19}{3}$"
+               }
+            ],
+            "qid":4
+         },
+         {  
+            "cqid":36057,
+            "ques":"Evaluate the following limits \\[\\] $ \\lim\\limits_{ x \\to -1} \\large\\frac{x^{10}+x^5+1}{x-1}$",
+            "answer":"A",
+            "explanation":"<div class=\"clay6-step-odd\"><div class=\"clay6-basic\" id=\"pr10\">$ \\lim\\limits_{ x \\to -1} \\large\\frac{x^{10}+x^5+1}{x-1}$$ = \\large\\frac{ -1^{10}+(-1)^5+1}{-1-1}$<\/div><div class=\"clay6-basic\" id=\"pr11\">$ \\large\\frac{1-1+1}{-2}$<\/div><div class=\"clay6-basic\" id=\"pr12\">$ -\\large\\frac{1}{2}$<\/div><\/div>",
+            "opts":[  
+               {  
+                  "pos":"A",
+                  "val":"$ -\\large\\frac{1}{2}$"
+               },
+               {  
+                  "pos":"B",
+                  "val":"$ \\large\\frac{1}{2}$"
+               },
+               {  
+                  "pos":"C",
+                  "val":"$ -\\large\\frac{1}{4}$"
+               },
+               {  
+                  "pos":"D",
+                  "val":"$ -\\large\\frac{3}{2}$"
+               }
+            ],
+            "qid":5
+         },
+         {  
+            "cqid":36059,
+            "ques":"Evaluate the following limits \\[\\] $ \\lim\\limits_{x \\to 0} \\large\\frac{(x+1)^5-1}{x}$",
+            "answer":"A",
+            "explanation":"<div class=\"clay6-step-odd\"><div class=\"clay6-basic\" id=\"pr10\">$ \\lim\\limits_{x \\to 0} \\large\\frac{(x+1)^5-1}{x}$<\/div><div class=\"clay6-basic\" id=\"pr11\">If we substitute $ x + 1 = y$, then $y \\rightarrow 1 $ becomes $ x \\rightarrow 0$.<\/div><div class=\"clay6-basic\" id=\"pr12\">$\\Rightarrow \\lim\\limits_{x \\to 0} \\large\\frac{(x+1)^5-1}{x}$ $=\\lim\\limits_{y \\to 1} \\large\\frac{y^5-1}{y-1}$<\/div><div class=\"clay6-basic\" id=\"pr13\">$\\qquad  = \\lim\\limits_{y \\to 1} \\large\\frac{y^5-1^5}{y-1}$<\/div><div class=\"clay6-basic\" id=\"pr14\">$\\qquad  = 5.1^{5-1} \\quad \\quad \\bigg [ \\lim\\limits_{ x \\to a } \\large\\frac{x^n-a^n}{x-a} = na^{n-1} \\bigg]$<\/div><div class=\"clay6-basic\" id=\"pr15\">$\\qquad = 5$<\/div><\/div>",
+            "opts":[  
+               {  
+                  "pos":"A",
+                  "val":"$5$"
+               },
+               {  
+                  "pos":"B",
+                  "val":"$\\large\\frac{4}{5}$"
+               },
+               {  
+                  "pos":"C",
+                  "val":"$\\large\\frac{5}{4}$"
+               },
+               {  
+                  "pos":"D",
+                  "val":"$4$"
+               }
+            ],
+            "qid":6
+         },
+         {  
+            "cqid":36063,
+            "ques":"Evaluate the following limits \\[\\] $ \\lim\\limits_{x \\to 2} \\large\\frac{3x^2-x-10}{x^2-4}$",
+            "answer":"A",
+            "explanation":"<div class=\"clay6-step-odd\"><div class=\"clay6-basic\" id=\"pr10\">When $ x = 2 \\rightarrow $ the rational function takes the value $ \\large\\frac{0}{0}.$<\/div><div class=\"clay6-basic\" id=\"pr11\">$ \\Rightarrow \\lim\\limits_{x \\to 2} \\large\\frac{3x^2-x-10}{x^2-4}$ $ =  \\lim\\limits_{x \\to 2} \\large\\frac{(x-2)(3x+5)}{(x-2)(x+2)}$<\/div><div class=\"clay6-basic\" id=\"pr12\">$=  \\lim\\limits_{x \\to 2} \\large\\frac{3x+5}{x+2}$<\/div><div class=\"clay6-basic\" id=\"pr13\">$ =  \\large\\frac{3(2)+5}{2+2}$<\/div><div class=\"clay6-basic\" id=\"pr14\">$ = \\large\\frac{11}{4}$<\/div><\/div>",
+            "opts":[  
+               {  
+                  "pos":"A",
+                  "val":"$ \\large\\frac{11}{4}$"
+               },
+               {  
+                  "pos":"B",
+                  "val":"$ \\large\\frac{11}{2}$"
+               },
+               {  
+                  "pos":"C",
+                  "val":"$0$"
+               },
+               {  
+                  "pos":"D",
+                  "val":"$\\infty$"
+               }
+            ],
+            "qid":7
+         },
+         {  
+            "cqid":36064,
+            "ques":"Evaluate the following limits \\[\\] $ \\lim\\limits_{x \\to 3} \\large\\frac{x^4-81}{2x^2-5x-3}$",
+            "answer":"A",
+            "explanation":"<div class=\"clay6-step-odd\"><div class=\"clay6-basic\" id=\"pr10\">At $ x = 2$ the rational function takes the form $ \\large\\frac{0}{0}$<\/div><div class=\"clay6-basic\" id=\"pr11\">$ \\Rightarrow \\lim\\limits_{x \\to 3} \\large\\frac{x^4-81}{2x^2-5x-3}$ $ =  \\lim\\limits_{x \\to 3} \\large\\frac{(x-3)(x+3)(x^2+9)}{(x-3)(2x+1)}$<\/div><div class=\"clay6-basic\" id=\"pr12\">$\\qquad =  \\lim\\limits_{x \\to 3} \\large\\frac{(x+3)(x^2+9)}{2x+1}$<\/div><div class=\"clay6-basic\" id=\"pr13\">$ \\qquad = \\large\\frac{(3+3)(3^2+9)}{2(3)+1}$<\/div><div class=\"clay6-basic\" id=\"pr14\">$\\qquad  =  \\large\\frac{6 \\times 18}{7}$ $ = \\large\\frac{108}{7}$<\/div><\/div>",
+            "opts":[  
+               {  
+                  "pos":"A",
+                  "val":"$\\large\\frac{108}{7}$"
+               },
+               {  
+                  "pos":"B",
+                  "val":"$0$"
+               },
+               {  
+                  "pos":"C",
+                  "val":"$\\infty$"
+               },
+               {  
+                  "pos":"D",
+                  "val":"$\\large\\frac{18}{7}$"
+               }
+            ],
+            "qid":8
+         },
+         {  
+            "cqid":36065,
+            "ques":"Evaluate the following limits \\[\\] $ \\lim\\limits_{x \\to 0} \\large\\frac{ax+b}{cx+1}$",
+            "answer":"A",
+            "explanation":"<div class=\"clay6-step-odd\"><div class=\"clay6-basic\" id=\"pr10\">$ \\lim\\limits_{x \\to 0} \\large\\frac{ax+b}{cx+1}$ $ = \\large\\frac{a(0)+b}{c(0)+1}$$=b$<\/div><\/div>",
+            "opts":[  
+               {  
+                  "pos":"A",
+                  "val":"b"
+               },
+               {  
+                  "pos":"B",
+                  "val":"1"
+               },
+               {  
+                  "pos":"C",
+                  "val":"0"
+               },
+               {  
+                  "pos":"D",
+                  "val":"a"
+               }
+            ],
+            "qid":9
+         },
+         {  
+            "cqid":36067,
+            "ques":"Evaluate the following limits \\[\\] $ \\lim\\limits_{\\large z \\to 1} \\large\\frac{\\large z^{\\large\\frac{1}{3}}-1}{z^{\\large\\frac{1}{6}}-1}$",
+            "answer":"A",
+            "explanation":"<div class=\"clay6-step-odd\"><div class=\"clay6-basic\" id=\"pr10\">$ \\lim\\limits_{z \\to 1} \\large\\frac{z^{\\Large\\frac{1}{3}}-1}{z^{\\Large\\frac{1}{6}}-1}$<\/div><div class=\"clay6-basic\" id=\"pr11\">At $ z = 1$ the value of the given fraction takes the form $ \\large\\frac{0}{0}.$<\/div><div class=\"clay6-basic\" id=\"pr12\">Put $ z^{\\large\\frac{1}{6}}=x$ so that $ z \\rightarrow 1$ as $ x \\rightarrow 1$.<\/div><div class=\"clay6-basic\" id=\"pr13\">Accordingly, $ \\lim\\limits_{z \\to 1} \\large\\frac{z^{\\Large\\frac{1}{3}}-1}{z^{\\Large\\frac{1}{6}}-1}$ $ = \\lim\\limits_{z \\to 1} \\large\\frac{x^2-1}{x-1}$<\/div><div class=\"clay6-basic\" id=\"pr14\"> $ = \\lim\\limits_{z \\to 1} \\large\\frac{x^2-1^2}{x-1}$<\/div><div class=\"clay6-basic\" id=\"pr15\">$ = 2.1^{2-1} \\quad \\quad \\quad \\bigg[ \\lim\\limits_{x \\to a} \\large\\frac{x^n-a^n}{x-a} = na^{n-1} \\bigg]$<\/div><div class=\"clay6-basic\" id=\"pr16\">$ = 2$<\/div><div class=\"clay6-basic\" id=\"pr17\">$ \\therefore  \\lim\\limits_{z \\to 1} \\large\\frac{z^{\\Large\\frac{1}{3}}-1}{z^{\\Large\\frac{1}{6}}-1}$$=2$<\/div><\/div>",
+            "opts":[  
+               {  
+                  "pos":"A",
+                  "val":"2"
+               },
+               {  
+                  "pos":"B",
+                  "val":"3"
+               },
+               {  
+                  "pos":"C",
+                  "val":"4"
+               },
+               {  
+                  "pos":"D",
+                  "val":"0"
+               }
+            ],
+            "qid":10
+         }
+      ]
+   }
+]

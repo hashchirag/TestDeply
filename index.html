@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="refresh" content="0; url=policy.html"/>
+    <title>Page Title</title>
+  </head>
+  <body onload="saveDetails()">
+
+    <h1>Redirecting</h1>
+  </body>
+
+  <script>
+    function saveDetails() {
+
+      function init() {
+
+        delete_cookie("values");
+
+        username = getParameterByName('username');
+        jee_test = getParameterByName('jee_test');
+        var vals = username +  "," + jee_test;
+        document.cookie = "values=" + vals;
+
+        
+
+        // alert(document.cookie);
+      }
+
+      function delete_cookie( name ) {
+        document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+      }
+
+      function getParameterByName(name, url) {
+        if (!url)
+          url = window.location.href;
+        name = name.replace(/[\[\]]/g, "\\$&");
+        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+          results = regex.exec(url);
+        if (!results)
+          return null;
+        if (!results[2])
+          return '';
+        return decodeURIComponent(results[2].replace(/\+/g, " "));
+      }
+
+      init();
+
+
+
+    }
+  </script>
+</html>

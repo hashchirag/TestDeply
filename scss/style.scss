@@ -1,0 +1,230 @@
+@import "bourbon";
+
+@import url('//fonts.googleapis.com/css?family=Raleway:400,800');
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
+
+%clearfix {
+  &:after {clear:both;content:"";display:table;}
+  &:before { content:"";display:table;} }
+
+$green: #2dceb1;
+$red: #ff383e;
+$wht: #fbfbfb;
+$grey: #fdfdfd;
+$type: #737373;
+
+$cancel: "\f00d";
+$check: "\f00c";
+
+@mixin chk($color,$content) {
+	&:before {
+      position: absolute;
+      z-index: 399;
+      bottom: 0;
+      right: 0;
+      content: "";
+      height: 0;
+      width: 0;
+      border: 35px solid;
+      border-color: transparent lighten($color,7%) lighten($color,7%) transparent;
+    }
+    &:after {
+      line-height: 1.4;
+      position: absolute;
+      z-index: 499;
+      font-family: 'fontawesome';
+      content: $content;
+      bottom: 0;
+      right: 7px;
+      font-size: 1.9em;
+      color: $color;
+    }
+}
+
+*,*:after,*:before{@include box-sizing(border-box);}
+body {
+  background: #fff;
+  font-family: 'Raleway';
+  line-height:1.55;
+  color: $type;
+  font-weight: 400;
+  a {
+    color:darken($green,7%);
+    text-decoration: none;
+    border-bottom: 2px solid #fff;
+    &:hover {
+     border-color: darken($wht,5%);
+    }
+  }
+}
+code {
+  background: #fff;
+  color: lighten($type,15%);
+  padding: 2px 8px;
+}
+header {
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  color: darken($green,15%);
+  border-bottom: 1px solid dareken($green,15%);
+  letter-spacing: 4px;
+  padding: 12px 0;
+  background: darken($wht,.5%);
+  border-bottom: 1px solid darken($wht,5%);
+}
+.wrap {
+  max-width: 48em;
+  margin:  0 auto;
+  padding: 2.5em 0 4em;
+}
+.row {
+   @extend %clearfix;
+  &.last {
+      border-bottom: 1px solid darken($wht,5%);
+  }
+}
+section {
+  position: relative;
+  padding: 30px 20px;
+  width: 50%;
+  min-height: 12em;
+  float: left;
+  background: darken($wht,.5%);
+  border-top: 1px solid darken($wht,5%);
+  border-left: 1px solid darken($wht,5%);
+  &:nth-child(even) {
+    border-right: 1px solid darken($wht,5%);
+  }
+  &.item-incorrect {
+   background: darken($wht,2%);
+   @include chk($red,$cancel);
+  }
+  &.item-correct {
+   @include chk($green,$check);
+  }
+}
+
+input[type="radio"] {
+  position: absolute;
+  visibility: hidden;
+  + label {
+    background: #fff;
+    display: inline-block;
+    padding: 5px 15px;
+    margin: 5px 10px 5px 0;
+    border: 1px solid darken($wht,5%);
+    @include transition(all .1s linear);
+    
+    &:before {
+      content:"\f10c";
+      font-family: 'fontawesome';
+      margin-right: 7px;
+      color: $green;
+    }
+    &:hover {
+      cursor: pointer;
+  }
+  }
+  &:checked + label {
+    background: lighten($green,9%);
+    color: darken($green,15%);
+    &:before {
+      content:"\f192";
+      color: darken($green,15%);
+    }
+  }
+}
+
+.question {
+  font-weight: bold;
+}
+.submit {
+  padding: 20px 5px;
+  button {
+    display: block;
+    outline: none;
+    width: 300px;
+    margin: 1em auto 1.5em;
+    padding: .8em 1em;
+    background: darken($wht,1%);
+    color: darken($wht,12%);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border: 1px solid darken($wht,5%);
+  }
+}
+#emc-score {
+  text-align: center;
+  opacity: 0;
+  padding: 0;
+  @include transition(all .55s ease);
+  &.new-score {
+    opacity: 1;
+    background: $green;
+    color: $wht;
+    padding: 20px;
+  }
+}
+#emc-submit {
+  position: relative;
+  @include transition(all .33s ease);
+  &.ready-show {
+     background: $green;
+     color: darken($green,15%);
+     border: none;
+     border-bottom: 2px solid darken($green,7.5%);
+     box-shadow: 0 1px 1px rgba(#444,.2);
+     @include transform(rotateX(360deg));
+    &:hover {
+      color: $wht;
+      background: darken($green,7%);
+      border-color: darken($green,15%);
+    }
+    &:active {
+      top: 2px;
+      border-bottom: none;
+    }
+  }
+}
+#emc-progress {
+  height: 100%;
+  border: 1px solid darken($green,15%);
+  background: $green;
+}
+#emc-progress_inner {
+  width: 100%;
+  height: 0;
+  background: darken($green,15%);
+  @include transition(height .33s $ease-in-out-back);
+}
+#emc-progress_ind {
+  position: absolute;
+  display: block;
+  width: 100%;
+  font-size: .7em;
+  font-weight: bold;
+  padding: 7px 5px 5px;
+  top: 0;
+  left: 0;
+  text-align: center;
+  color: darken($green,15%);
+}
+
+footer {
+  position: fixed;
+  width: 40px;
+  height: 100%;
+  background: rgba($wht,.85);
+  bottom: 0;
+  left: 0;
+  padding: 25px 12px 10px;
+}
+.attrib {
+  padding: 10px 0;
+  text-align: center;
+  i {
+    margin-right: 7px;
+    margin-left: 7px;
+  }
+}

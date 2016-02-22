@@ -1,0 +1,92 @@
+[
+   {
+     "info":{
+         "cid":94,
+         "ct":"Limit, Continuity and Differentiability",
+         "ctg":"jeemain,math,limit-continuity-and-differentiability",
+         "pcid":78
+      }
+   },
+   {
+      "info":{
+         "cid":88,
+         "ct":"Sets, Relations and Functions",
+         "ctg":"jeemain,math,sets-relations-and-functions",
+         "pcid":78
+      }
+   },
+   {
+      "info":{
+         "cid":31,
+         "ct":"Complex Numbers",
+         "ctg":"tnstate,class12,ch3",
+         "pcid":24
+      }
+   },
+   {
+      "info":{
+         "cid":92,
+         "ct":"Bionomial Theorem and Simple Applications",
+         "ctg":"jeemain,math,binomial-theorem-and-simple-applications",
+         "pcid":226
+      }
+   },
+   {
+      "info":{
+         "cid":175,
+         "ct":"Sequences and Series",
+         "ctg":"sequences-and-series",
+         "pcid":166
+      }
+   },
+
+   {
+      "info":{
+         "cid":98,
+         "ct":"3-D Geometry",
+         "ctg":"jeemain,math,3-d-geometry",
+         "pcid":226
+      }
+   },
+
+   {
+      "info":{
+         "cid":57,
+         "ct":"Inverse Trigonometric Functions",
+         "ctg":"cbse,class12,ch2",
+         "pcid":14
+      }
+   },
+   {
+      "info":{
+         "cid":29,
+         "ct":"Applications of Matrices and Determinants",
+         "ctg":"tnstate,class12,ch1",
+         "pcid":24
+      }
+   },
+   {
+      "info":{
+         "cid":35,
+         "ct":"Integral Calculus and its applications",
+         "ctg":"tnstate,class12,ch7",
+         "pcid":24
+      }
+   },
+   {
+      "info":{
+         "cid":96,
+         "ct":"Differential Equations",
+         "ctg":"jeemain,math,differential-equations",
+         "pcid":227
+      }
+   },
+   {
+      "info":{
+         "cid":65,
+         "ct":"Vector Algebra",
+         "ctg":"cbse,class12,ch10",
+         "pcid":14
+      }
+   }
+]
